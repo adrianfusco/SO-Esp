@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FacturaElectronica
+   xsi:schemaLocation="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.3/facturaElectronica https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.3/facturaElectronica"
+   xmlns="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.3/facturaElectronica"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+   <Clave>50609092000310120144500100001010000020435101272452</Clave>
+   <CodigoActividad>523912</CodigoActividad>
+   <NumeroConsecutivo>00100001010000020435</NumeroConsecutivo>
+   <FechaEmision>2020-09-09T14:07:09-06:00</FechaEmision>
+   <Emisor>
+      <Nombre>Nombre Emisor S.A.</Nombre>
+      <Identificacion>
+         <Tipo>02</Tipo>
+         <Numero>310123456789</Numero>
+      </Identificacion>
+      <Ubicacion>
+         <Provincia>4</Provincia>
+         <Canton>03</Canton>
+         <Distrito>06</Distrito>
+         <Barrio>01</Barrio>
+         <OtrasSenas>100 mts este la Valencia</OtrasSenas>
+      </Ubicacion>
+      <Telefono>
+         <CodigoPais>506</CodigoPais>
+         <NumTelefono>22699999</NumTelefono>
+      </Telefono>
+      <Fax>
+         <CodigoPais>0</CodigoPais>
+         <NumTelefono>0</NumTelefono>
+      </Fax>
+      <CorreoElectronico>alguien@emisor.com</CorreoElectronico>
+   </Emisor>
+   <Receptor>
+      <Nombre>Nombre RECEPTOR S.A.</Nombre>
+      <Identificacion>
+         <Tipo>02</Tipo>
+         <Numero>3007123456</Numero>
+      </Identificacion>
+      <Ubicacion>
+         <Provincia>2</Provincia>
+         <Canton>07</Canton>
+         <Distrito>05</Distrito>
+         <Barrio>01</Barrio>
+         <OtrasSenas>100 - 100  SANTA BARBARA</OtrasSenas>
+      </Ubicacion>
+      <Telefono>
+         <CodigoPais>506</CodigoPais>
+         <NumTelefono>22699696</NumTelefono>
+      </Telefono>
+      <CorreoElectronico>alguno@gmail.com</CorreoElectronico>
+   </Receptor>
+   <CondicionVenta>02</CondicionVenta>
+   <PlazoCredito>45</PlazoCredito>
+   <MedioPago>99</MedioPago>
+   <DetalleServicio>
+      <LineaDetalle>
+         <NumeroLinea>1</NumeroLinea>
+         <Codigo>038290</Codigo>
+         <CodigoComercial>
+            <Tipo>01</Tipo>
+            <Codigo>038290</Codigo>
+         </CodigoComercial>
+         <CodigoComercial>
+            <Tipo>03</Tipo>
+            <Codigo>7441152918448</Codigo>
+         </CodigoComercial>
+         <Cantidad>12.000</Cantidad>
+         <UnidadMedida>Unid</UnidadMedida>
+         <Detalle>LANZA 50 CMS SM.226-A CARPI</Detalle>
+         <PrecioUnitario>3974.02740</PrecioUnitario>
+         <MontoTotal>47688.32880</MontoTotal>
+         <Descuento>
+            <MontoDescuento>3338.18302</MontoDescuento>
+            <NaturalezaDescuento>Descuento Comercial</NaturalezaDescuento>
+         </Descuento>
+         <SubTotal>44350.14578</SubTotal>
+         <Impuesto>
+            <Codigo>01</Codigo>
+            <CodigoTarifa>02</CodigoTarifa>
+            <Tarifa>1</Tarifa>
+            <Monto>443.50146</Monto>
+         </Impuesto>
+         <ImpuestoNeto>443.50146</ImpuestoNeto>
+         <MontoTotalLinea>44793.64724</MontoTotalLinea>
+      </LineaDetalle>
+      <LineaDetalle>
+         <NumeroLinea>2</NumeroLinea>
+         <Codigo>038440</Codigo>
+         <CodigoComercial>
+            <Tipo>01</Tipo>
+            <Codigo>038440</Codigo>
+         </CodigoComercial>
+         <CodigoComercial>
+            <Tipo>03</Tipo>
+            <Codigo>7441152918523</Codigo>
+         </CodigoComercial>
+         <Cantidad>3.000</Cantidad>
+         <UnidadMedida>Unid</UnidadMedida>
+         <Detalle>MARCO PINTADO</Detalle>
+         <PrecioUnitario>7595.50000</PrecioUnitario>
+         <MontoTotal>22786.50000</MontoTotal>
+         <Descuento>
+            <MontoDescuento>1595.05500</MontoDescuento>
+            <NaturalezaDescuento>Descuento Comercial</NaturalezaDescuento>
+         </Descuento>
+         <SubTotal>21191.44500</SubTotal>
+         <Impuesto>
+            <Codigo>01</Codigo>
+            <CodigoTarifa>02</CodigoTarifa>
+            <Tarifa>1</Tarifa>
+            <Monto>211.91445</Monto>
+         </Impuesto>
+         <ImpuestoNeto>211.91445</ImpuestoNeto>
+         <MontoTotalLinea>21403.35945</MontoTotalLinea>
+      </LineaDetalle>
+   </DetalleServicio>
+   <ResumenFactura>
+      <CodigoTipoMoneda>
+         <CodigoMoneda>CRC</CodigoMoneda>
+         <TipoCambio>1</TipoCambio>
+      </CodigoTipoMoneda>
+      <TotalServGravados>0.00000</TotalServGravados>
+      <TotalServExentos>0.00000</TotalServExentos>
+      <TotalServExonerado>0.00000</TotalServExonerado>
+      <TotalMercanciasGravadas>70474.82880</TotalMercanciasGravadas>
+      <TotalMercanciasExentas>0.00000</TotalMercanciasExentas>
+      <TotalMercExonerada>0.00000</TotalMercExonerada>
+      <TotalGravado>70474.82880</TotalGravado>
+      <TotalExento>0.00000</TotalExento>
+      <TotalExonerado>0.00000</TotalExonerado>
+      <TotalVenta>70474.82880</TotalVenta>
+      <TotalDescuentos>4933.23802</TotalDescuentos>
+      <TotalVentaNeta>65541.59078</TotalVentaNeta>
+      <TotalImpuesto>655.41591</TotalImpuesto>
+      <TotalIVADevuelto>0.00000</TotalIVADevuelto>
+      <TotalComprobante>66197.00669</TotalComprobante>
+   </ResumenFactura>
+   <Otros>
+      <OtroTexto codigo="Pedido">0000098947</OtroTexto>
+      <OtroTexto codigo="NombreCliente">letra por 8.000.000 del 25-01-2017 pagadero con cheque</OtroTexto>
+      <OtroTexto codigo="Vendedor">75 Agente 75</OtroTexto>
+      <OtroTexto codigo="Bodega">BODEGA PRINCIPAL</OtroTexto>
+      <OtroTexto codigo="FechaEntrega">09/09/2020</OtroTexto>
+      <OtroTexto codigo="LugarEntrega">759</OtroTexto>
+   </Otros>
+</FacturaElectronica>
